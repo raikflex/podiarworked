@@ -1,0 +1,150 @@
+.footer__morefeatures{
+    position: relative;
+    top: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+}
+#footer__darkthem{
+    background-color: #fff;
+}
+.footerlabel{
+    width: 90%;
+}
+.flexcolumn__container, .flexcolumntwo,.flexcolumnthree,.flexcolumnfour,.flexcolumnfive,.flexcolumnsix,.flexcolumnseven {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    width: 100%;
+    max-height: 50px;
+    background-color:transparent;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: transparent;
+}
+#ipopener,#ipopener2,#ipopener3,#ipopener4,#ipopener5,#ipopener6,#ipopener7{
+    position: absolute;
+    opacity: 0%;
+}
+
+
+.ipopenerbox:checked ~ .flexcolumn__container{
+    max-height: 350px; 
+}
+.ipopenerbox2:checked ~ .flexcolumntwo{
+    max-height: 350px; 
+}
+.ipopenerbox3:checked ~ .flexcolumnthree{
+    max-height: 350px; 
+}
+.ipopenerbox4:checked ~ .flexcolumnfour{
+    max-height: 350px; 
+}
+.ipopenerbox5:checked ~ .flexcolumnfive{
+    max-height: 350px; 
+}
+.ipopenerbox6:checked ~ .flexcolumnsix{
+    max-height: 350px; 
+}
+.ipopenerbox7:checked ~ .flexcolumnseven{
+    max-height: 350px; 
+}
+.footerlabel{
+    position: absolute;
+    opacity: 0%;
+}
+
+.dropdown__maindiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 46px;
+    padding: 0px 10px 0px 10px;
+    background-color:#00000011;
+}
+
+
+
+.b__openerdmenu{
+    width: 40px;
+    min-height: 40px;
+    border: none;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2px;
+    background-color: transparent;
+}
+.b__icon{
+    width: 20px;
+    filter: grayscale(100%);
+}
+.maindiv__h2{
+    font-family: "customFont";
+    font-size: 18px;
+    font-weight: 400;
+    color: #222;
+}
+.listcontainer{ 
+    width: 100%;
+    min-height: 200px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+#listcontianer{
+    width: 100%;
+    min-height: 200px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.listfooter{
+    list-style: none;
+    margin-left: -2px;
+    line-height: 2;
+}
+.linkeditem{
+    color: #666;
+    text-decoration: underline #666;
+    font-size: 20px;
+}
+.allrightslabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    min-height: 30px;
+    background-color: transparent;
+    gap: 5px;
+}
+.footeright__a{
+    color: #666;  
+    text-decoration-line:10px;  
+}
+@media screen and (min-width:820px){
+    .allrightslabs{
+        align-self: flex-start;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .allrightslabs{
+        align-self: center;
+    }
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "customFont";
+    src: url(/WEBS/FONTS/Roboto-Regular.ttf);
+    font-weight: 300;
+    
+}
+@font-face{
+    font-family: "playfair";
+    src: url(/WEBS/FONTS/Playfair/PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 400;
+}
